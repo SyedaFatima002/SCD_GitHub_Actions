@@ -26,8 +26,8 @@ jobs:
       - run: npm --version
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      -run: npm install
-      -run: node index.js
+      - run: npm install
+      - run: node index.js
 
       # Runs a single command using the runners shell
  #     - name: Run a one-line script
