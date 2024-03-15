@@ -1,0 +1,23 @@
+{
+  "name": "lab_7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SyedaFatima002/SCD_GitHub_Actions.git"
+  },
+  "keywords": [
+    "node",
+    "github_actions"
+  ],
+  "author": "Syeda Fatima Kazmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SyedaFatima002/SCD_GitHub_Actions/issues"
+  },
+  "homepage": "https://github.com/SyedaFatima002/SCD_GitHub_Actions#readme"
+}
