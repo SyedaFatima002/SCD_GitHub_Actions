@@ -2,7 +2,7 @@ const express = require( 'express' );
 const app = express()
 app.use(express.json())
 
-app.listen(3003, ()=>{
+const server = app.listen(3003, ()=>{
     console.log("App lisening on port 3003")
 })
 
@@ -89,3 +89,10 @@ app.delete('/deletetask/:id', (req,res)=>{
     })
     res.json({"Task Deleted Successfully": tasks})
 })
+
+// Automatically shut down after a specified time (e.g., 5 minutes)
+setTimeout(() => {
+    server.close(() => {
+        console.log('Server shut down after timeout');
+    });
+}, 1000); // 300,000 ms = 5 minutes
