@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/SyedaFatima002/SCD_GitHub_Actions/issues"
   },
-  "homepage": "https://github.com/SyedaFatima002/SCD_GitHub_Actions#readme"
+  "homepage": "https://github.com/SyedaFatima002/SCD_GitHub_Actions#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
 }
